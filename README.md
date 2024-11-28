@@ -71,22 +71,7 @@ Based on the role, specific sections of the application will be accessible.
 Logout:
 
 Click the logout button to end the session securely.
-Folder Structure
-perl
-Copy code
-rbac-system/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.example.rbac/       # Java backend code
-│   │   ├── resources/
-│   │   │   └── db.properties           # Database configurations
-│   │   ├── webapp/
-│   │   │   ├── WEB-INF/
-│   │   │   │   └── web.xml             # Servlet configuration
-│   │   │   ├── index.html              # Entry point
-│   │   │   └── assets/                 # Static files (CSS, JS, images)
-└── README.md                           # Project documentation
+              # Project documentation
 Future Enhancements
 Add email verification during registration.
 Implement password recovery.
